@@ -7,7 +7,7 @@ class ResearchLover:public Lover
     public:
         ResearchLover(string n):Lover(n)
         {
-            cout<<"shell lover constructor"<<endl;
+            cout<<"research lover constructor"<<endl;
         }
 
         void foo() override
