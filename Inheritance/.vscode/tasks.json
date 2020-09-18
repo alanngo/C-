@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C/C++: gcc build active file",
+            "command": "g++",
+            "type": "shell",
+            "args": 
+            [
+                "-g", //you need this argument for debugging
+                "*.cpp" /*replace [MAIN_FILE] w/ the file containing your
+                            main function*/
+            ],
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        }
+    ]
+}
